@@ -3,15 +3,11 @@ from typing import List, Dict
 #Kitson
 import pandas as pd
 from pathlib import Path
-from sql_to_python.excel.tool import generate_excel
-from sql_to_python.file.file_helper import unzip_to_folder, list_all_files, save_to_file, delete_folder
-from sql_to_python.filter.logic import get_result_from_file, get_valid_and_invalid_exercise_lists
-from openpyxl import load_workbook
-
-# https://pypi.org/project/html5print/
-from html5print import HTMLBeautifier
-from sql_to_python.filter.logic import generate_data_list
 from sql_to_python.excel.tool import get_excel_sheetnames
+from html5print import HTMLBeautifier
+# Reference:
+# https://pypi.org/project/html5print/
+
 
 def generate_html_template(headers: List[str]) -> str:
     tab = "".join(map(lambda x: f"<button class=\"tablinks\" onclick=\"openQuestion(event, '{x}')\">{x}</button>", headers))
@@ -33,6 +29,7 @@ def generate_html_template(headers: List[str]) -> str:
 </body>
 </html>"""
 
+
 def generate_all_th(rows: List[str]) -> str:
     tds = "".join(map(lambda x: f"<th>{x}</th>", rows))
     return f"<tr>{tds}</tr>"
@@ -47,8 +44,6 @@ def generate_tr(rows: List[str]) -> str:
     return f"<tr>{tds}</tr>"
 
 
-#def generate_html_report(file_path_name: Path, results: List[Dict[str, str]]) -> str:
-
 def generate_html_report(file_path_name: Path) -> str:
 
     tbl = ""
@@ -61,12 +56,5 @@ def generate_html_report(file_path_name: Path) -> str:
         tbl += f"<div id=\"{i}\" class=\"tabcontent\"><table>{thead}{trs}</table></div>"
     template = generate_html_template(sheets)
     return HTMLBeautifier.beautify(template.replace("###table_body###", tbl))
-
-
-file = Path("../../out/output.xlsx")
-out_folder = Path("../../out/")
-html_report = out_folder.joinpath("result.html")
-html_report_content = generate_html_report(file)
-save_to_file(html_report, html_report_content)
 
 

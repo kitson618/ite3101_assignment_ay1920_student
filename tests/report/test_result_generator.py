@@ -5,7 +5,7 @@ from pathlib import Path
 from html5print import HTMLBeautifier
 
 from sql_to_python.file.file_helper import read_file
-from sql_to_python.report.report_generator import generate_mark_report
+from sql_to_python.report.result_generator import generate_result
 from tests.test_helper import normalize_line_endings, get_worksheet
 
 
@@ -25,8 +25,8 @@ class TestReport(unittest.TestCase):
             os.remove(excel_report_path)
 
     def test_generate_mark_report_html(self):
-        html_report_content, excel_report_path = generate_mark_report(Path("../../data/test_result.zip"),
-                                                                      Path("../../out/"))
+        html_report_content, excel_report_path = generate_result(Path("../../data/test_result.zip"),
+                                                                 Path("../../out/"))
 
         expect = HTMLBeautifier.beautify(read_file(Path("../data/result.html")))
         result = HTMLBeautifier.beautify(html_report_content)
@@ -35,16 +35,16 @@ class TestReport(unittest.TestCase):
             self.assertEqual(expect[i], result[i])
 
     def test_generate_mark_report_xlsx_total_marks(self):
-        html_report_content, excel_report_path = generate_mark_report(Path("../../data/test_result.zip"),
-                                                                      Path("../../out/"))
+        html_report_content, excel_report_path = generate_result(Path("../../data/test_result.zip"),
+                                                                 Path("../../out/"))
         result = get_worksheet("Total Marks", excel_report_path).to_dict()
         expect = get_worksheet("Total Marks", self.expected_xlsx).to_dict()
 
         self.assertDictEqual(expect, result)
 
     def test_generate_mark_report_xlsx_detail_marks(self):
-        html_report_content, excel_report_path = generate_mark_report(Path("../../data/test_result.zip"),
-                                                                      Path("../../out/"))
+        html_report_content, excel_report_path = generate_result(Path("../../data/test_result.zip"),
+                                                                 Path("../../out/"))
         result = get_worksheet("Detail Marks", excel_report_path).to_dict()
         expect = get_worksheet("Detail Marks", self.expected_xlsx).to_dict()
 

@@ -24,7 +24,7 @@ def list_all_files(path: Path) -> List[Path]:
     file_name_list = []
     for root, d_names, f_names in os.walk(str(path)):
         for f in f_names:
-            file_name_list.append(Path(root, f))
+            file_name_list.append(Path(f))
     file_name_list.sort()
     return file_name_list
 

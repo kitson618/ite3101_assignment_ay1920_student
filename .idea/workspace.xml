@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e3b6a9-8181-4eb6-b722-ea6bdaaba374" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/source_data.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/source_data.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Publisher.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q3.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q4.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q5.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q6.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q7.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q8.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/output_Q9.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_to_python/excel/Expenses01.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_to_python/excel/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/excel/tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_to_python/file/file_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/file/file_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_to_python/filter/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/filter/logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_to_python/html/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/html/report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_to_python/report/report_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/report/result_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_to_python/translator/translator.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/translator/translator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/report/test_report_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/report/test_result_generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +42,10 @@
     <SUITE FILE_PATH="coverage/sql_to_python$test_sort.coverage" NAME="test_sort Coverage Results" MODIFIED="1569826302179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/filter" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_excel.coverage" NAME="Unittests in excel Coverage Results" MODIFIED="1539676355933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_valid_and_invalid_exercise_lists.coverage" NAME="Unittests for test_logic.TestLogic.test_get_valid_and_invalid_exercise_lists Coverage Results" MODIFIED="1539221317864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/sql_to_python$runner.coverage" NAME="runner Coverage Results" MODIFIED="1570958687091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_report.coverage" NAME="Unittests in report Coverage Results" MODIFIED="1539676380677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
     <SUITE FILE_PATH="coverage/lab_checker$main.coverage" NAME="main Coverage Results" MODIFIED="1539047451399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sql_to_python$translator.coverage" NAME="translator Coverage Results" MODIFIED="1569826356746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/translator" />
+    <SUITE FILE_PATH="coverage/sql_to_python$translator.coverage" NAME="translator Coverage Results" MODIFIED="1570955288563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/translator" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_file_helper_TestFileHelper_test_list_all_files.coverage" NAME="Unittests for test_file_helper.TestFileHelper.test_list_all_files Coverage Results" MODIFIED="1539314251272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_file_helper_test_FileHelperTest.coverage" NAME="Unittests for file_helper_test.FileHelperTest Coverage Results" MODIFIED="1539051099663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_generator_TestReport_test_generate_mark_report_html.coverage" NAME="Unittests for test_report_generator.TestReport.test_generate_mark_report_html Coverage Results" MODIFIED="1539565007027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
@@ -39,6 +61,7 @@
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_all_tr.coverage" NAME="Unittests for test_report.TestReport.test_generate_all_tr Coverage Results" MODIFIED="1539305873470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_generator_TestReport_test_generate_mark_report_xlsx_total_marks.coverage" NAME="Unittests for test_report_generator.TestReport.test_generate_mark_report_xlsx_total_marks Coverage Results" MODIFIED="1539564669789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_marker.coverage" NAME="Unittests in marker Coverage Results" MODIFIED="1539676377580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/sql_to_python$report.coverage" NAME="report Coverage Results" MODIFIED="1570946438186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/html" />
     <SUITE FILE_PATH="coverage/sql_to_python$tool.coverage" NAME="tool Coverage Results" MODIFIED="1569562008532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/excel" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1539223981418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_detail_marks_worksheet.coverage" NAME="Unittests for test_report.TestReport.test_generate_detail_marks_worksheet Coverage Results" MODIFIED="1539306009234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
@@ -76,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1714">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="-46">
+              <caret line="246" column="29" lean-forward="true" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="29" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -86,36 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql_to_python/excel/test.py">
+        <entry file="file://$PROJECT_DIR$/sql_to_python/file/file_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql_to_python/report/report_generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="329">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -124,10 +121,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql_to_python/report/result_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql_to_python/html/report.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-151">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql_to_python/excel/tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-450">
-              <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+            <state relative-caret-position="364">
+              <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -138,8 +171,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_to_python/filter/logic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state>
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -148,10 +180,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/report/test_report_generator.py">
+        <entry file="file://$PROJECT_DIR$/tests/report/test_result_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="-46">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -160,13 +192,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_helper.py">
+        <entry file="file://$PROJECT_DIR$/sql_to_python/excel/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -200,9 +229,14 @@
       <find>read_</find>
       <find>nan</find>
       <find>get_sorted_list</find>
+      <find>, sheet_name</find>
+      <find>xlsxwriter</find>
+      <find>read_source_excel</find>
+      <find>return results, output_sheet_name</find>
     </findStrings>
     <replaceStrings>
       <replace>Path</replace>
+      <replace>return results</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -236,20 +270,24 @@
         <option value="$PROJECT_DIR$/lab_checker/html/report.py" />
         <option value="$PROJECT_DIR$/lab_checker/marker/logic.py" />
         <option value="$PROJECT_DIR$/lab_checker/report/report_generator.py" />
-        <option value="$PROJECT_DIR$/runner.py" />
         <option value="$PROJECT_DIR$/sql_to_python/translator/question1.py" />
         <option value="$PROJECT_DIR$/sql_to_python/excel/report.py" />
         <option value="$PROJECT_DIR$/sql_to_python/translator/translator_bak.py" />
         <option value="$PROJECT_DIR$/sql_to_python/excel/test.py" />
         <option value="$PROJECT_DIR$/sql_to_python/marker/logic.py" />
-        <option value="$PROJECT_DIR$/sql_to_python/excel/tool.py" />
-        <option value="$PROJECT_DIR$/sql_to_python/filter/logic.py" />
         <option value="$PROJECT_DIR$/sql_to_python/filter/test_sort" />
+        <option value="$PROJECT_DIR$/sql_to_python/report/report_generator.py" />
+        <option value="$PROJECT_DIR$/runner.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/file/file_helper.py" />
         <option value="$PROJECT_DIR$/sql_to_python/translator/translator.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/report/result_generator.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/filter/logic.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/html/report.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/excel/tool.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="407" />
     <option name="y" value="53" />
     <option name="width" value="1440" />
@@ -271,6 +309,11 @@
             <path>
               <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,12 +325,47 @@
               <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
               <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="excel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
               <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="translator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -332,8 +410,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.translator">
-    <configuration name="question1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.runner">
+    <configuration name="report" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sql_to_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,12 +419,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql_to_python/translator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql_to_python/html" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Desktop\IVE\IVE201920\1920_SEM1\ITE3101 Introduction to Programming\Assignment\assignment\sql_to_python\sql_to_python\translator\translator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_to_python/html/report.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,7 +433,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sql_to_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -363,12 +441,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql_to_python/excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_to_python/excel/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,19 +522,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.question1" />
       <item itemvalue="Python.tool" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.translator" />
       <item itemvalue="Python.test_sort" />
+      <item itemvalue="Python.report" />
+      <item itemvalue="Python.runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.runner" />
         <item itemvalue="Python.translator" />
+        <item itemvalue="Python.report" />
         <item itemvalue="Python.test_sort" />
         <item itemvalue="Python.tool" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.question1" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +549,7 @@
       <option name="presentableId" value="Default" />
       <updated>1538986185386</updated>
       <workItem from="1569410420026" duration="44890000" />
-      <workItem from="1569750475251" duration="25838000" />
+      <workItem from="1569750475251" duration="37758000" />
     </task>
     <servers />
   </component>
@@ -508,18 +586,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70728000" />
+    <option name="totallyTimeSpent" value="82648000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="520" y="85" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4134478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20457797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34200743" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32589838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32713756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +606,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34776902" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34776902" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -595,7 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/result.html" />
     <entry file="file://$PROJECT_DIR$/tests/marker/test_logic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -619,13 +696,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql_to_python/excel/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/html/report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/file/test_file_helper.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -669,50 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/file/file_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/data/result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11731">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/excel/tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/filter/logic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,27 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/report/test_report_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql_to_python/filter/test_sort">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/excel/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -755,25 +768,94 @@
         <state relative-caret-position="-932" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator.py">
+    <entry file="file://$PROJECT_DIR$/tests/report/test_result_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1714">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="-46">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/excel/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/file/file_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/report/report_generator.py">
+    <entry file="file://$PROJECT_DIR$/sql_to_python/filter/logic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state>
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/html/report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="246" column="29" lean-forward="true" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/report/result_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/excel/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

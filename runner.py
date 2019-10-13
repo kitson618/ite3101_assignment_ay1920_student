@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from sql_to_python.report.report_generator import generate_mark_report
+from sql_to_python.report.result_generator import generate_result
 
 if __name__ == '__main__':
-    generate_mark_report(Path("data/test_result.zip"), Path("out/"))
+    generate_result(Path("data/source_data.zip"), Path("out/"))
