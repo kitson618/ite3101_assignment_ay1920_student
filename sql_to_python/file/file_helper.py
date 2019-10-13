@@ -11,7 +11,7 @@ def unzip_to_folder(source_zip: Path, target_dir: Path):
     zip_file.close()
 
 
-def delete_folder(target_dir: Path):
+def cleanup_folder(target_dir: Path):
     shutil.rmtree(str(target_dir))
 
 

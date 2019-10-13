@@ -1,6 +1,5 @@
 from typing import List, Dict
 
-#Kitson
 import pandas as pd
 from pathlib import Path
 from sql_to_python.excel.tool import get_excel_sheetnames

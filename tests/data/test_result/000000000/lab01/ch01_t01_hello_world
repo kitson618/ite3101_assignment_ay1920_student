@@ -1,8 +1,0 @@
-============================= test session starts ==============================
-platform linux -- Python 3.6.1, pytest-3.7.3, py-1.5.4, pluggy-0.7.1
-rootdir: /tmp/ite3101_introduction_to_programming/tests/lab01, inifile:
-collected 1 item
-
-../../tmp/ite3101_introduction_to_programming/tests/lab01/test_ch01_t01_hello_world.py . [100%]
-
-=========================== 1 passed in 0.08 seconds ===========================

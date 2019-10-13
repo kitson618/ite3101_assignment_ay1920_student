@@ -1,12 +1,21 @@
 from pathlib import Path
 from typing import List, Dict
 
+from sql_to_python.filter.logic import generate_data_list
+from sql_to_python.translator.translator_q1 import query_all
+from sql_to_python.translator.translator_q2 import query_with_filter
+from sql_to_python.translator.translator_q3 import query_with_order
+from sql_to_python.translator.translator_q4 import delete_record_query
+from sql_to_python.translator.translator_q5 import update_record_query
+from sql_to_python.translator.translator_q6 import add_table_column_query
+from sql_to_python.translator.translator_q7 import query_with_groupby
+from sql_to_python.translator.translator_q8 import query_multiple_tables_A
+from sql_to_python.translator.translator_q9 import query_multiple_tables_B
+from sql_to_python.translator.translator_q10 import create_table
+
 import pandas as pd
 import xlsxwriter
 from xlsxwriter import Workbook
-from sql_to_python.filter.logic import generate_data_list
-from sql_to_python.translator.translator import *
-
 # Reference:
 # https://xlsxwriter.readthedocs.io/tutorial01.html
 # https://xlsxwriter.readthedocs.io/worksheet.html
@@ -24,6 +33,7 @@ def create_spreadsheet(sheet_name: str,workbook: Workbook):
 
 def generate_excel(import_path_name: Path, export_path_name: Path):
     workbook = xlsxwriter.Workbook(str(export_path_name.absolute()))
+
 
     # Q1
     result = query_all(import_path_name, "Emp")
