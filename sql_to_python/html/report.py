@@ -57,3 +57,4 @@ def generate_html_report(file_path_name: Path) -> str:
     return HTMLBeautifier.beautify(template.replace("###table_body###", tbl))
 
 
+

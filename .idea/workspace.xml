@@ -2,56 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e3b6a9-8181-4eb6-b722-ea6bdaaba374" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/translator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/translator/test_translator_q9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Publisher.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q2.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q3.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q4.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q5.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q6.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q7.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q8.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/output_Q9.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_result.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out/result.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_to_python/excel/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/source_data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/source_data.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_to_python/excel/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/excel/tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_to_python/file/file_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/file/file_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_to_python/filter/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/filter/logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_to_python/filter/test_sort" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_to_python/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/html/sample.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_to_python/html/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/html/report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_to_python/html/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/html/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_to_python/report/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/result/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_to_python/report/result_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/result/result_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_to_python/translator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/translator/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_to_python/translator/translator.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_to_python/translator/translator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/failed_test_result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/mock_test_result.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/passed_test_result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/data/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/data/result.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/test_result/000000000/lab01/ch01_t01_hello_world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/test_result/123456789/lab01/__init__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/test_result/123456789/lab01/ch01_t10_two_types_of_division" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/marker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/filter/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/marker/test_logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/filter/test_logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/data/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/data/test_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/data/test_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/data/test_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/data/test_data.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/excel/test_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/excel/test_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/file/test_file_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/file/test_file_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/filter/test_logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/filter/test_logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/html/test_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/html/test_report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/report/test_result_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/report/test_result_generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,54 +25,73 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_result_generator_py.coverage" NAME="Unittests in test_result_generator.py Coverage Results" MODIFIED="1570962919617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_report_py.coverage" NAME="Unittests in test_report.py Coverage Results" MODIFIED="1570973022548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_file_helper_TestFileHelper.coverage" NAME="Unittests for test_file_helper.TestFileHelper Coverage Results" MODIFIED="1539314690439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_friendly_exercise_name.coverage" NAME="Unittests for test_logic.TestLogic.test_get_friendly_exercise_name Coverage Results" MODIFIED="1539219571215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
-    <SUITE FILE_PATH="coverage/lab_checker$runner.coverage" NAME="runner Coverage Results" MODIFIED="1539564577321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_file_helper_py.coverage" NAME="Unittests in test_file_helper.py Coverage Results" MODIFIED="1570973344507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
     <SUITE FILE_PATH="coverage/sql_to_python$question1.coverage" NAME="question1 Coverage Results" MODIFIED="1569411647569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/translator" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_html.coverage" NAME="Unittests in html Coverage Results" MODIFIED="1539676372061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport.coverage" NAME="Unittests for test_report.TestReport Coverage Results" MODIFIED="1539559248483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_html_template.coverage" NAME="Unittests for test_report.TestReport.test_generate_html_template Coverage Results" MODIFIED="1539305945980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
-    <SUITE FILE_PATH="coverage/sql_to_python$test_sort.coverage" NAME="test_sort Coverage Results" MODIFIED="1569826302179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/filter" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_excel.coverage" NAME="Unittests in excel Coverage Results" MODIFIED="1539676355933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_valid_and_invalid_exercise_lists.coverage" NAME="Unittests for test_logic.TestLogic.test_get_valid_and_invalid_exercise_lists Coverage Results" MODIFIED="1539221317864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
-    <SUITE FILE_PATH="coverage/sql_to_python$runner.coverage" NAME="runner Coverage Results" MODIFIED="1570966244958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_report.coverage" NAME="Unittests in report Coverage Results" MODIFIED="1539676380677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
-    <SUITE FILE_PATH="coverage/lab_checker$main.coverage" NAME="main Coverage Results" MODIFIED="1539047451399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sql_to_python$translator.coverage" NAME="translator Coverage Results" MODIFIED="1570955288563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/translator" />
+    <SUITE FILE_PATH="coverage/sql_to_python$runner.coverage" NAME="runner Coverage Results" MODIFIED="1570975403302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_file_helper_TestFileHelper_test_list_all_files.coverage" NAME="Unittests for test_file_helper.TestFileHelper.test_list_all_files Coverage Results" MODIFIED="1539314251272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_file_helper_test_FileHelperTest.coverage" NAME="Unittests for file_helper_test.FileHelperTest Coverage Results" MODIFIED="1539051099663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_generator_TestReport_test_generate_mark_report_html.coverage" NAME="Unittests for test_report_generator.TestReport.test_generate_mark_report_html Coverage Results" MODIFIED="1539565007027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_distinct_list.coverage" NAME="Unittests for test_logic.TestLogic.test_get_distinct_list Coverage Results" MODIFIED="1539221712662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_total_mark_worksheet.coverage" NAME="Unittests for test_report.TestReport.test_generate_total_mark_worksheet Coverage Results" MODIFIED="1539308997103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_result_from_file_ok.coverage" NAME="Unittests for test_logic.TestLogic.test_get_result_from_file_ok Coverage Results" MODIFIED="1539219851390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_file_helper_test_FileHelperTest_test_save_to_file.coverage" NAME="Unittests for file_helper_test.FileHelperTest.test_save_to_file Coverage Results" MODIFIED="1539050814418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport__1_.coverage" NAME="Unittests for test_report.TestReport (1) Coverage Results" MODIFIED="1539309220952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
-    <SUITE FILE_PATH="coverage/sql_to_python$test.coverage" NAME="test Coverage Results" MODIFIED="1569492623535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/excel" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_excel.coverage" NAME="Unittests for test_report.TestReport.test_generate_excel Coverage Results" MODIFIED="1539309180228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_file_helper_TestFileHelper_test_read_file.coverage" NAME="Unittests for test_file_helper.TestFileHelper.test_read_file Coverage Results" MODIFIED="1539313957217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_for_test_report_TestReport_test_generate_html_report.coverage" NAME="Unittests for test_report.TestReport.test_generate_html_report Coverage Results" MODIFIED="1570972524596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_file_helper_TestFileHelper_test_save_to_file.coverage" NAME="Unittests for test_file_helper.TestFileHelper.test_save_to_file Coverage Results" MODIFIED="1539314651083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_all_tr.coverage" NAME="Unittests for test_report.TestReport.test_generate_all_tr Coverage Results" MODIFIED="1539305873470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_generator_TestReport_test_generate_mark_report_xlsx_total_marks.coverage" NAME="Unittests for test_report_generator.TestReport.test_generate_mark_report_xlsx_total_marks Coverage Results" MODIFIED="1539564669789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_marker.coverage" NAME="Unittests in marker Coverage Results" MODIFIED="1539676377580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
-    <SUITE FILE_PATH="coverage/sql_to_python$report.coverage" NAME="report Coverage Results" MODIFIED="1570946438186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/html" />
-    <SUITE FILE_PATH="coverage/sql_to_python$tool.coverage" NAME="tool Coverage Results" MODIFIED="1569562008532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/excel" />
+    <SUITE FILE_PATH="coverage/sql_to_python$report.coverage" NAME="report Coverage Results" MODIFIED="1570972531750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/html" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1539223981418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_detail_marks_worksheet.coverage" NAME="Unittests for test_report.TestReport.test_generate_detail_marks_worksheet Coverage Results" MODIFIED="1539306009234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_generate_lab_mark.coverage" NAME="Unittests for test_logic.TestLogic.test_generate_lab_mark Coverage Results" MODIFIED="1539222071767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_generator_TestReport_test_generate_mark_report_xlsx_detail_marks.coverage" NAME="Unittests for test_report_generator.TestReport.test_generate_mark_report_xlsx_detail_marks Coverage Results" MODIFIED="1539564658757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_html_report.coverage" NAME="Unittests for test_report.TestReport.test_generate_html_report Coverage Results" MODIFIED="1539305950986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_result_from_file_failed.coverage" NAME="Unittests for test_logic.TestLogic.test_get_result_from_file_failed Coverage Results" MODIFIED="1539220121195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_file.coverage" NAME="Unittests in file Coverage Results" MODIFIED="1539676366077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_test_report_generator_py.coverage" NAME="Unittests in test_report_generator.py Coverage Results" MODIFIED="1539564508673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic.coverage" NAME="Unittests for test_logic.TestLogic Coverage Results" MODIFIED="1539218989832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_file_helper_TestFileHelper_test_unzip_to_folder.coverage" NAME="Unittests for test_file_helper.TestFileHelper.test_unzip_to_folder Coverage Results" MODIFIED="1539313954158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_logic_py.coverage" NAME="Unittests in test_logic.py Coverage Results" MODIFIED="1570975199021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/filter" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_for_test_logic_TestLogic.coverage" NAME="Unittests for test_logic.TestLogic Coverage Results" MODIFIED="1570975235873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/filter" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_file_helper_test_py.coverage" NAME="Unittests in file_helper_test.py Coverage Results" MODIFIED="1539049465639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_tr.coverage" NAME="Unittests for test_report.TestReport.test_generate_tr Coverage Results" MODIFIED="1539305844498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q10_py.coverage" NAME="Unittests in test_translator_q10.py Coverage Results" MODIFIED="1570966978370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_result_generator_py.coverage" NAME="Unittests in test_result_generator.py Coverage Results" MODIFIED="1570972958924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_friendly_exercise_name.coverage" NAME="Unittests for test_logic.TestLogic.test_get_friendly_exercise_name Coverage Results" MODIFIED="1539219571215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_for_test_report_TestReport.coverage" NAME="Unittests for test_report.TestReport Coverage Results" MODIFIED="1570972829773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
+    <SUITE FILE_PATH="coverage/lab_checker$runner.coverage" NAME="runner Coverage Results" MODIFIED="1539564577321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q9_py.coverage" NAME="Unittests in test_translator_q9.py Coverage Results" MODIFIED="1570966974133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_html_template.coverage" NAME="Unittests for test_report.TestReport.test_generate_html_template Coverage Results" MODIFIED="1539305945980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
+    <SUITE FILE_PATH="coverage/sql_to_python$test_sort.coverage" NAME="test_sort Coverage Results" MODIFIED="1569826302179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/filter" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_valid_and_invalid_exercise_lists.coverage" NAME="Unittests for test_logic.TestLogic.test_get_valid_and_invalid_exercise_lists Coverage Results" MODIFIED="1539221317864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_report.coverage" NAME="Unittests in report Coverage Results" MODIFIED="1539676380677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
+    <SUITE FILE_PATH="coverage/lab_checker$main.coverage" NAME="main Coverage Results" MODIFIED="1539047451399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sql_to_python$translator.coverage" NAME="translator Coverage Results" MODIFIED="1570968042772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/translator" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_total_mark_worksheet.coverage" NAME="Unittests for test_report.TestReport.test_generate_total_mark_worksheet Coverage Results" MODIFIED="1539308997103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_result_from_file_ok.coverage" NAME="Unittests for test_logic.TestLogic.test_get_result_from_file_ok Coverage Results" MODIFIED="1539219851390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport__1_.coverage" NAME="Unittests for test_report.TestReport (1) Coverage Results" MODIFIED="1539309220952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_for_test_file_helper_TestFileHelper.coverage" NAME="Unittests for test_file_helper.TestFileHelper Coverage Results" MODIFIED="1570973150242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
+    <SUITE FILE_PATH="coverage/sql_to_python$test.coverage" NAME="test Coverage Results" MODIFIED="1569492623535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/excel" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_excel.coverage" NAME="Unittests for test_report.TestReport.test_generate_excel Coverage Results" MODIFIED="1539309180228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/excel" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_all_tr.coverage" NAME="Unittests for test_report.TestReport.test_generate_all_tr Coverage Results" MODIFIED="1539305873470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_marker.coverage" NAME="Unittests in marker Coverage Results" MODIFIED="1539676377580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/sql_to_python$tool.coverage" NAME="tool Coverage Results" MODIFIED="1570970001055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/excel" />
+    <SUITE FILE_PATH="coverage/sql_to_python$logic.coverage" NAME="logic Coverage Results" MODIFIED="1570975037173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql_to_python/filter" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_generate_lab_mark.coverage" NAME="Unittests for test_logic.TestLogic.test_generate_lab_mark Coverage Results" MODIFIED="1539222071767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q3_py.coverage" NAME="Unittests in test_translator_q3.py Coverage Results" MODIFIED="1570966945392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_generator_TestReport_test_generate_mark_report_xlsx_detail_marks.coverage" NAME="Unittests for test_report_generator.TestReport.test_generate_mark_report_xlsx_detail_marks Coverage Results" MODIFIED="1539564658757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/report" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q2_py.coverage" NAME="Unittests in test_translator_q2.py Coverage Results" MODIFIED="1570966934220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q1_py.coverage" NAME="Unittests in test_translator_q1.py Coverage Results" MODIFIED="1570966926877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
+    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic.coverage" NAME="Unittests for test_logic.TestLogic Coverage Results" MODIFIED="1539218989832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_report_py__1_.coverage" NAME="Unittests in test_report.py (1) Coverage Results" MODIFIED="1570972737721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_file_helper_test_FileHelperTest_test_read_file.coverage" NAME="Unittests for file_helper_test.FileHelperTest.test_read_file Coverage Results" MODIFIED="1539049722347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_get_result_from_file_invalid.coverage" NAME="Unittests for test_logic.TestLogic.test_get_result_from_file_invalid Coverage Results" MODIFIED="1539220215360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q6_py.coverage" NAME="Unittests in test_translator_q6.py Coverage Results" MODIFIED="1570966959851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q8_py.coverage" NAME="Unittests in test_translator_q8.py Coverage Results" MODIFIED="1570966969119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q7_py.coverage" NAME="Unittests in test_translator_q7.py Coverage Results" MODIFIED="1570966964398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q4_py.coverage" NAME="Unittests in test_translator_q4.py Coverage Results" MODIFIED="1570966950770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_logic_TestLogic_test_split_path.coverage" NAME="Unittests for test_logic.TestLogic.test_split_path Coverage Results" MODIFIED="1539219351897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/marker" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_in_file_helper_test_py.coverage" NAME="Unittests in file_helper_test.py Coverage Results" MODIFIED="1539049465639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
     <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_file_helper_test_FileHelperTest_test_list_all_files.coverage" NAME="Unittests for file_helper_test.FileHelperTest.test_list_all_files Coverage Results" MODIFIED="1539051513516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/file" />
-    <SUITE FILE_PATH="coverage/lab_checker$Unittests_for_test_report_TestReport_test_generate_tr.coverage" NAME="Unittests for test_report.TestReport.test_generate_tr Coverage Results" MODIFIED="1539305844498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/html" />
+    <SUITE FILE_PATH="coverage/sql_to_python$Unittests_in_test_translator_q5_py.coverage" NAME="Unittests in test_translator_q5.py Coverage Results" MODIFIED="1570966955417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/translator" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -126,80 +109,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q6.py">
+        <entry file="file://$PROJECT_DIR$/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q1.py">
+        <entry file="file://$PROJECT_DIR$/sql_to_python/result/result_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="248">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q10.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -227,11 +156,9 @@
       <find>sheet</find>
       <find>startswith</find>
       <find>Dict</find>
-      <find>write_excel</find>
       <find>generate_data_list</find>
       <find>source_data.xlsx</find>
       <find>read_</find>
-      <find>nan</find>
       <find>get_sorted_list</find>
       <find>, sheet_name</find>
       <find>xlsxwriter</find>
@@ -241,9 +168,13 @@
       <find>pandas</find>
       <find>pd.</find>
       <find>expected_xlsx</find>
+      <find>write_excel</find>
+      <find>nan</find>
+      <find>Emp</find>
     </findStrings>
     <replaceStrings>
       <replace>Path</replace>
+      <replace>''</replace>
       <replace>return results</replace>
     </replaceStrings>
   </component>
@@ -253,11 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/html/test_report.py" />
-        <option value="$PROJECT_DIR$/tests/file/test_file_helper.py" />
-        <option value="$PROJECT_DIR$/lab_checker/report_generator.py" />
-        <option value="$PROJECT_DIR$/tests/excel/test_report.py" />
-        <option value="$PROJECT_DIR$/tests/report/test_report_generator.py" />
         <option value="$PROJECT_DIR$/tests/test_helper.py" />
         <option value="$PROJECT_DIR$/lab_checker/excel/report.py" />
         <option value="$PROJECT_DIR$/lab_checker/file/file_helper.py" />
@@ -272,15 +198,11 @@
         <option value="$PROJECT_DIR$/sql_to_python/filter/test_sort" />
         <option value="$PROJECT_DIR$/sql_to_python/report/report_generator.py" />
         <option value="$PROJECT_DIR$/runner.py" />
-        <option value="$PROJECT_DIR$/sql_to_python/html/report.py" />
         <option value="$PROJECT_DIR$/sql_to_python/file/file_helper.py" />
         <option value="$PROJECT_DIR$/sql_to_python/report/result_generator.py" />
         <option value="$PROJECT_DIR$/sql_to_python/html/tab.js" />
-        <option value="$PROJECT_DIR$/sql_to_python/filter/logic.py" />
-        <option value="$PROJECT_DIR$/tests/report/test_result_generator.py" />
         <option value="$PROJECT_DIR$/tests/marker/test_logic.py" />
         <option value="$PROJECT_DIR$/tests/translator/test_translator.py" />
-        <option value="$PROJECT_DIR$/sql_to_python/translator/translator.py" />
         <option value="$PROJECT_DIR$/sql_to_python/translator/translator_q1.py" />
         <option value="$PROJECT_DIR$/sql_to_python/translator/translator_q2.py" />
         <option value="$PROJECT_DIR$/sql_to_python/translator/translator_q3.py" />
@@ -293,23 +215,32 @@
         <option value="$PROJECT_DIR$/sql_to_python/translator/translator_q10.py" />
         <option value="$PROJECT_DIR$/sql_to_python/translator/__init__.py" />
         <option value="$PROJECT_DIR$/sql_to_python/excel/__init__.py" />
-        <option value="$PROJECT_DIR$/sql_to_python/excel/tool.py" />
         <option value="$PROJECT_DIR$/tests/translator/test_translator_q2.py" />
         <option value="$PROJECT_DIR$/tests/translator/test_translator_q3.py" />
         <option value="$PROJECT_DIR$/tests/translator/test_translator_q4.py" />
+        <option value="$PROJECT_DIR$/tests/translator/test_translator_q1.py" />
+        <option value="$PROJECT_DIR$/tests/translator/test_translator_q5.py" />
+        <option value="$PROJECT_DIR$/tests/translator/test_translator_q6.py" />
         <option value="$PROJECT_DIR$/tests/translator/test_translator_q7.py" />
         <option value="$PROJECT_DIR$/tests/translator/test_translator_q8.py" />
         <option value="$PROJECT_DIR$/tests/translator/test_translator_q9.py" />
         <option value="$PROJECT_DIR$/tests/translator/test_translator_q10.py" />
-        <option value="$PROJECT_DIR$/tests/translator/test_translator_q1.py" />
-        <option value="$PROJECT_DIR$/tests/translator/test_translator_q5.py" />
-        <option value="$PROJECT_DIR$/tests/translator/test_translator_q6.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/excel/tool.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/translator/translator.py" />
+        <option value="$PROJECT_DIR$/tests/excel/test_report.py" />
+        <option value="$PROJECT_DIR$/tests/html/test_report.py" />
+        <option value="$PROJECT_DIR$/tests/report/test_result_generator.py" />
+        <option value="$PROJECT_DIR$/tests/file/test_file_helper.py" />
+        <option value="$PROJECT_DIR$/tests/data/test_data.py" />
+        <option value="$PROJECT_DIR$/tests/filter/test_logic.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/filter/logic.py" />
+        <option value="$PROJECT_DIR$/sql_to_python/html/report.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="407" />
-    <option name="y" value="53" />
+    <option name="x" value="225" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -386,43 +317,7 @@
               <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sql_to_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sql_to_python" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="translator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -467,7 +362,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.runner">
-    <configuration name="report" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sql_to_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -475,12 +370,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql_to_python/html" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql_to_python/filter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_to_python/html/report.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_to_python/filter/logic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -511,79 +406,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sql_to_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql_to_python/filter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_to_python/filter/test_sort" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="translator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sql_to_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql_to_python/translator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_to_python/translator/translator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_result_generator.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_logic.TestLogic" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="sql_to_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/report" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/filter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/report/test_result_generator.py&quot;" />
+      <option name="_new_target" value="&quot;test_logic.TestLogic&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_file_helper.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="sql_to_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/file" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/file/test_file_helper.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_logic.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="sql_to_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/filter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/filter/test_logic.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.translator" />
-      <item itemvalue="Python.test_sort" />
-      <item itemvalue="Python.report" />
+      <item itemvalue="Python tests.Unittests in test_file_helper.py" />
+      <item itemvalue="Python tests.Unittests in test_logic.py" />
+      <item itemvalue="Python.logic" />
+      <item itemvalue="Python tests.Unittests for test_logic.TestLogic" />
       <item itemvalue="Python.runner" />
-      <item itemvalue="Python tests.Unittests in test_result_generator.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.runner" />
-        <item itemvalue="Python tests.Unittests in test_result_generator.py" />
-        <item itemvalue="Python.translator" />
-        <item itemvalue="Python.report" />
-        <item itemvalue="Python.test_sort" />
+        <item itemvalue="Python tests.Unittests for test_logic.TestLogic" />
+        <item itemvalue="Python tests.Unittests in test_logic.py" />
+        <item itemvalue="Python.logic" />
+        <item itemvalue="Python tests.Unittests in test_file_helper.py" />
       </list>
     </recent_temporary>
   </component>
@@ -598,55 +479,55 @@
       <option name="presentableId" value="Default" />
       <updated>1538986185386</updated>
       <workItem from="1569410420026" duration="44890000" />
-      <workItem from="1569750475251" duration="44657000" />
+      <workItem from="1569750475251" duration="53209000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_html - 2018.10.15 at 08h 57m 44s.xml">
-      <configuration name="Unittests in html" configurationId="tests" />
+    <history-entry file="Unittests_in_test_report_py - 2019.10.13 at 21h 21m 04s.xml">
+      <configuration name="Unittests in test_report.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_marker - 2018.10.15 at 08h 57m 47s.xml">
-      <configuration name="Unittests in marker" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_report - 2018.10.15 at 08h 58m 17s.xml">
-      <configuration name="Unittests in report" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_excel - 2018.10.16 at 15h 52m 42s.xml">
-      <configuration name="Unittests in excel" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_file - 2018.10.16 at 15h 52m 48s.xml">
-      <configuration name="Unittests in file" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_html - 2018.10.16 at 15h 52m 54s.xml">
-      <configuration name="Unittests in html" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_marker - 2018.10.16 at 15h 52m 57s.xml">
-      <configuration name="Unittests in marker" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_report - 2018.10.16 at 15h 53m 40s.xml">
-      <configuration name="Unittests in report" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_result_generator_py - 2019.10.13 at 18h 34m 30s.xml">
+    <history-entry file="Unittests_in_test_result_generator_py - 2019.10.13 at 21h 22m 42s.xml">
       <configuration name="Unittests in test_result_generator.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_result_generator_py - 2019.10.13 at 18h 35m 39s.xml">
-      <configuration name="Unittests in test_result_generator.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_report_py - 2019.10.13 at 21h 23m 44s.xml">
+      <configuration name="Unittests in test_report.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_file_helper_py - 2019.10.13 at 21h 23m 57s.xml">
+      <configuration name="Unittests in test_file_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_file_helper_TestFileHelper - 2019.10.13 at 21h 25m 52s.xml">
+      <configuration name="Unittests for test_file_helper.TestFileHelper" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_file_helper_py - 2019.10.13 at 21h 28m 16s.xml">
+      <configuration name="Unittests in test_file_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_file_helper_py - 2019.10.13 at 21h 29m 06s.xml">
+      <configuration name="Unittests in test_file_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_logic_py - 2019.10.13 at 21h 37m 38s.xml">
+      <configuration name="Unittests in test_logic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_logic_py - 2019.10.13 at 21h 59m 59s.xml">
+      <configuration name="Unittests in test_logic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_logic_TestLogic - 2019.10.13 at 22h 00m 36s.xml">
+      <configuration name="Unittests for test_logic.TestLogic" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89547000" />
+    <option name="totallyTimeSpent" value="98099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20457797" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29971388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.267658" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3667906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32713756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,7 +536,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17967781" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19028871" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -664,12 +545,12 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20457797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15236051" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.120198265" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32589838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32713756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -678,7 +559,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17967781" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19028871" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -744,16 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/file/file_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql_to_python/html/sample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -774,74 +645,10 @@
     <entry file="file://$PROJECT_DIR$/tests/data/passed_test_result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/html/report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/file/test_file_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-888">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/filter/logic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/excel/test_report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -898,56 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/result/result_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql_to_python/translator/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -957,104 +714,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql_to_python/excel/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_to_python/excel/tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/report/test_result_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-end-line="141" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/html/test_report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="132" column="14" lean-forward="true" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/filter/test_logic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q3.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1089,6 +748,228 @@
           <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/translator/test_translator_q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/html/test_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/report/test_result_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/excel/test_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/file/test_file_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/filter/test_logic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/excel/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="85" column="37" lean-forward="true" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/file/file_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/filter/logic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/html/report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/translator/translator_q9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_to_python/result/result_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,8 +5,8 @@ from pathlib import Path
 import pandas as pd
 import xlsxwriter
 
-from sql_to_python.excel.tool import generate_total_mark_worksheet, generate_detail_marks_worksheet, generate_excel
-from tests.data.test_data import lab_data, headers, marks
+from sql_to_python.excel.tool import generate_excel, write_excel
+from tests.data.test_data import test_data, headers
 from tests.test_helper import get_worksheet
 
 
@@ -19,42 +19,16 @@ class TestReport(unittest.TestCase):
     def tearDown(self):
         os.remove(self.file)
 
-    def test_generate_detail_marks_worksheet(self):
-        generate_detail_marks_worksheet(headers, marks, self.workbook)
-        self.workbook.close()
+
+    def test_write_excel(self):
+        workbook = xlsxwriter.Workbook(str(self.file.absolute()))
+        write_excel(test_data,"Emp",workbook)
+        workbook.close()
         xl = pd.ExcelFile(self.file)
-        df = xl.parse("Detail Marks")
-        result = df.to_dict()
-        expect = {'ID': {0: 123456789, 1: 987654321}, 'Lab1': {0: 12, 1: 22}, 'Lab2': {0: 13, 1: 23},
-                  'Total': {0: 0, 1: 0}}
-        self.assertDictEqual(expect, result)
-
-    def test_generate_total_mark_worksheet(self):
-        generate_detail_marks_worksheet(headers, marks, self.workbook)
-        generate_total_mark_worksheet(marks, self.workbook)
-        self.workbook.close()
-
-        df = get_worksheet("Total Marks", self.file)
-
-        result = df.to_dict()
-        expect = {0: {0: 'id', 1: "='Detail Marks'!A2", 2: "='Detail Marks'!A3"},
-                  1: {0: 'Total', 1: "='Detail Marks'!D2", 2: "='Detail Marks'!D3"}}
-        self.assertDictEqual(expect, result)
-
-    def test_generate_excel(self):
-        generate_excel(self.file, lab_data)
-        xl = pd.ExcelFile(self.file)
-        df = xl.parse("Detail Marks")
-        result = df.to_dict()
-        expect = {'id/lab': {0: 180031132, 1: 180074586}, 'Lab01': {0: 0, 1: 12}, 'Lab02': {0: 0, 1: 16},
-                  'Lab03': {0: 0, 1: 6}, 'Lab04': {0: 4, 1: 13}, 'Lab05': {0: 5, 1: 9}, 'Total': {0: 0, 1: 0}}
-        self.assertDictEqual(expect, result)
-
-        df = get_worksheet("Total Marks", self.file)
-
-        result = df.to_dict()
-        expect = {0: {0: 'id', 1: "='Detail Marks'!A2", 2: "='Detail Marks'!A3"},
-                  1: {0: 'Total', 1: "='Detail Marks'!G2", 2: "='Detail Marks'!G3"}}
+        df = pd.read_excel(self.file, sheet_name="Emp", dtype=str)
+        result = df.replace('nan', '').to_dict()
+        print(result)
+        expect = {'empNo': {0: '7566', 1: '7782', 2: '7369', 3: '7839', 4: '7876', 5: '7902', 6: '7934', 7: '7788'}, 'eName': {0: 'JONES', 1: 'CLARK', 2: 'SMITH', 3: 'KING', 4: 'ADAMS', 5: 'FORD', 6: 'MILLER', 7: 'SCOTT'}, 'job': {0: 'MANAGER', 1: 'MANAGER', 2: 'CLERK', 3: 'PRESIDENT', 4: 'CLERK', 5: 'ANALYST', 6: 'CLERK', 7: 'ANALYST'}, 'mgr': {0: '7839', 1: '7839', 2: '7902', 3: '', 4: '7788', 5: '7566', 6: '7782', 7: '7566'}, 'hireDate': {0: '1981-04-02 00:00:00', 1: '1981-06-09 00:00:00', 2: '1980-12-17 00:00:00', 3: '1981-11-17 00:00:00', 4: '1987-05-23 00:00:00', 5: '1981-12-03 00:00:00', 6: '1982-01-23 00:00:00', 7: '1987-04-19 00:00:00'}, 'salary': {0: '2975', 1: '2450', 2: '800', 3: '5000', 4: '1100', 5: '3000', 6: '1300', 7: '3000'}, 'comm': {0: '', 1: '', 2: '', 3: '', 4: '', 5: '', 6: '', 7: ''}, 'deptNo': {0: '20', 1: '10', 2: '20', 3: '10', 4: '20', 5: '20', 6: '10', 7: '20'}, 'dummy': {0: '1', 1: '6', 2: '7', 3: '8', 4: '10', 5: '12', 6: '13', 7: '14'}}
         self.assertDictEqual(expect, result)
 
 

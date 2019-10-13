@@ -2,55 +2,12 @@ import os
 import unittest
 from pathlib import Path
 
-from sql_to_python.filter.logic import is_test_passed, split_path, get_friendly_exercise_name, get_result_from_file, \
-    get_valid_and_invalid_exercise_lists, get_distinct_list, generate_lab_mark
-from tests.data.test_data import lab_data
+from sql_to_python.filter.logic import get_distinct_list, generate_data_list, get_sorted_list_singular, get_sorted_list
+from tests.data.test_data import test_data
 
 
 class TestLogic(unittest.TestCase):
-    def test_is_test_passed_true(self):
-        self.assertTrue(is_test_passed(Path("../data/passed_test_result.txt")))
 
-    def test_is_test_passed_false(self):
-        self.assertFalse(is_test_passed(Path("../data/failed_test_result.txt")))
-
-    def test_split_path(self):
-        result = split_path(Path(f"a{os.path.sep}b{os.path.sep}c"))
-        expect = ["a", "b", "c"]
-        self.assertListEqual(expect, result)
-
-    def test_get_friendly_exercise_name(self):
-        result = get_friendly_exercise_name("ch01_t01_hello_world")
-        expect = "Task 01 Hello World"
-        self.assertEqual(expect, result)
-
-    def test_get_result_from_file_ok(self):
-        result = get_result_from_file(Path("../data/test_result/000000000/lab01/ch01_t01_hello_world"))
-        expect = {'id': '000000000', 'lab': 'Lab01', 'exercise': 'Task 01 Hello World', 'status': 'OK'}
-        self.assertDictEqual(expect, result)
-
-    def test_get_result_from_file_failed(self):
-        result = get_result_from_file(Path("../data/test_result/123456789/lab01/ch01_t10_two_types_of_division"))
-        expect = {'id': '123456789', 'lab': 'Lab01', 'exercise': 'Task 10 Two Types Of Division', 'status': 'Failed'}
-        self.assertDictEqual(expect, result)
-
-    def test_get_result_from_file_invalid(self):
-        result = get_result_from_file(Path("../data/test_result/123456789/lab01/__init__"))
-        expect = {'id': '123456789', 'lab': 'Lab01', 'exercise': ' Init  ', 'status': 'Invalid'}
-        self.assertDictEqual(expect, result)
-
-    def test_get_valid_and_invalid_exercise_lists(self):
-        data = [{'id': '000000000', 'lab': 'Lab01', 'exercise': 'Task 01 Hello World', 'status': 'OK'},
-                {'id': '123456789', 'lab': 'Lab01', 'exercise': 'Task 10 Two Types Of Division', 'status': 'Failed'},
-                {'id': '123456789', 'lab': 'Lab01', 'exercise': ' Init  ', 'status': 'Invalid'}]
-
-        valid, invalid = get_valid_and_invalid_exercise_lists(data)
-        expected_valid = [{'id': '000000000', 'lab': 'Lab01', 'exercise': 'Task 01 Hello World', 'status': 'OK'},
-                          {'id': '123456789', 'lab': 'Lab01', 'exercise': 'Task 10 Two Types Of Division',
-                           'status': 'Failed'}]
-        self.assertListEqual(expected_valid, valid)
-        expected_invalid = [{'id': '123456789', 'lab': 'Lab01', 'exercise': ' Init  ', 'status': 'Invalid'}]
-        self.assertListEqual(expected_invalid, invalid)
 
     def test_get_distinct_list(self):
         data = [{'id': '123456789', 'lab': 'Lab03', 'exercise': 'Task 10 Two Types Of Division', 'status': 'Failed'},
@@ -66,50 +23,48 @@ class TestLogic(unittest.TestCase):
         result = get_distinct_list(data, "exercise")
         self.assertListEqual(expect, result)
 
-    def test_generate_lab_mark(self):
-        result = generate_lab_mark(lab_data)
-        expect = (['id/lab', 'Lab01', 'Lab02', 'Lab03', 'Lab04', 'Lab05'],
-                  [['180031132', '0', '0', '0', '4', '5'], ['180074586', '12', '16', '6', '13', '9']])
-        self.assertTupleEqual(expect, result)
+
+    def test_get_sorted_list_singular(self):
+        expect = [{'empNo': '7876', 'eName': 'ADAMS', 'job': 'CLERK', 'mgr': '7788', 'hireDate': '1987-05-23 00:00:00', 'salary': '1100', 'comm': '', 'deptNo': '20', 'dummy': '10'},
+                  {'empNo': '7782', 'eName': 'CLARK', 'job': 'MANAGER', 'mgr': '7839', 'hireDate': '1981-06-09 00:00:00', 'salary': '2450', 'comm': '', 'deptNo': '10', 'dummy': '6'},
+                  {'empNo': '7902', 'eName': 'FORD', 'job': 'ANALYST', 'mgr': '7566', 'hireDate': '1981-12-03 00:00:00', 'salary': '3000', 'comm': '', 'deptNo': '20', 'dummy': '12'},
+                  {'empNo': '7566', 'eName': 'JONES', 'job': 'MANAGER', 'mgr': '7839', 'hireDate': '1981-04-02 00:00:00', 'salary': '2975', 'comm': '', 'deptNo': '20', 'dummy': '1'},
+                  {'empNo': '7839', 'eName': 'KING', 'job': 'PRESIDENT', 'mgr': '', 'hireDate': '1981-11-17 00:00:00', 'salary': '5000', 'comm': '', 'deptNo': '10', 'dummy': '8'},
+                  {'empNo': '7934', 'eName': 'MILLER', 'job': 'CLERK', 'mgr': '7782', 'hireDate': '1982-01-23 00:00:00', 'salary': '1300', 'comm': '', 'deptNo': '10', 'dummy': '13'},
+                  {'empNo': '7788', 'eName': 'SCOTT', 'job': 'ANALYST', 'mgr': '7566', 'hireDate': '1987-04-19 00:00:00', 'salary': '3000', 'comm': '', 'deptNo': '20', 'dummy': '14'},
+                  {'empNo': '7369', 'eName': 'SMITH', 'job': 'CLERK', 'mgr': '7902', 'hireDate': '1980-12-17 00:00:00', 'salary': '800', 'comm': '', 'deptNo': '20', 'dummy': '7'}]
+        result = get_sorted_list_singular(test_data, 'eName')
+        self.assertListEqual(expect, result)
 
 
+    def test_get_sorted_list(self):
+        expect = [{'empNo': '7934', 'eName': 'MILLER', 'job': 'CLERK', 'mgr': '7782', 'hireDate': '1982-01-23 00:00:00', 'salary': '1300', 'comm': '', 'deptNo': '10', 'dummy': '13'},
+                  {'empNo': '7782', 'eName': 'CLARK', 'job': 'MANAGER', 'mgr': '7839', 'hireDate': '1981-06-09 00:00:00', 'salary': '2450', 'comm': '', 'deptNo': '10', 'dummy': '6'},
+                  {'empNo': '7839', 'eName': 'KING', 'job': 'PRESIDENT', 'mgr': '', 'hireDate': '1981-11-17 00:00:00', 'salary': '5000', 'comm': '', 'deptNo': '10', 'dummy': '8'},
+                  {'empNo': '7876', 'eName': 'ADAMS', 'job': 'CLERK', 'mgr': '7788', 'hireDate': '1987-05-23 00:00:00', 'salary': '1100', 'comm': '', 'deptNo': '20', 'dummy': '10'},
+                  {'empNo': '7566', 'eName': 'JONES', 'job': 'MANAGER', 'mgr': '7839', 'hireDate': '1981-04-02 00:00:00', 'salary': '2975', 'comm': '', 'deptNo': '20', 'dummy': '1'},
+                  {'empNo': '7902', 'eName': 'FORD', 'job': 'ANALYST', 'mgr': '7566', 'hireDate': '1981-12-03 00:00:00', 'salary': '3000', 'comm': '', 'deptNo': '20', 'dummy': '12'},
+                  {'empNo': '7788', 'eName': 'SCOTT', 'job': 'ANALYST', 'mgr': '7566', 'hireDate': '1987-04-19 00:00:00', 'salary': '3000', 'comm': '', 'deptNo': '20', 'dummy': '14'},
+                  {'empNo': '7369', 'eName': 'SMITH', 'job': 'CLERK', 'mgr': '7902', 'hireDate': '1980-12-17 00:00:00', 'salary': '800', 'comm': '', 'deptNo': '20', 'dummy': '7'}]
+        result = get_sorted_list(test_data, 'deptNo', 'salary')
+        self.assertListEqual(expect, result)
 
 
+    def test_generate_data_list(self):
+        expect_header = ['empNo', 'eName', 'job', 'mgr', 'hireDate', 'salary', 'comm', 'deptNo', 'dummy']
+        expect_datalist = [['7566', 'JONES', 'MANAGER', '7839', '1981-04-02 00:00:00', '2975', '', '20', '1'],
+                            ['7782', 'CLARK', 'MANAGER', '7839', '1981-06-09 00:00:00', '2450', '', '10', '6'],
+                            ['7369', 'SMITH', 'CLERK', '7902', '1980-12-17 00:00:00', '800', '', '20', '7'],
+                            ['7839', 'KING', 'PRESIDENT', '', '1981-11-17 00:00:00', '5000', '', '10', '8'],
+                            ['7876', 'ADAMS', 'CLERK', '7788', '1987-05-23 00:00:00', '1100', '', '20', '10'],
+                            ['7902', 'FORD', 'ANALYST', '7566', '1981-12-03 00:00:00', '3000', '', '20', '12'],
+                            ['7934', 'MILLER', 'CLERK', '7782', '1982-01-23 00:00:00', '1300', '', '10', '13'],
+                            ['7788', 'SCOTT', 'ANALYST', '7566', '1987-04-19 00:00:00', '3000', '', '20', '14']]
 
+        result_header, result_datalist = generate_data_list(test_data)
 
-
-
-
-
-# def get_distinct_list(results: List[Dict[str, str]], key: str) -> List[str]:
-#     distinct = list(set(map(lambda x: x[key], results)))
-#     List.sort(distinct)
-#     return distinct
-#
-#
-# def get_sorted_list_singular(results: List[Dict[str,str]], key: str) -> List[Dict[str,str]]:
-#     results = sorted(results, key=lambda x: (x[key]))
-#     return results
-#
-#
-# def get_sorted_list(results: List[Dict[str,str]], *args: str) -> List[Dict[str,str]]:
-#     # allow multiple sort keys
-#     results = sorted(results, key=lambda x: ([x[key] for key in args]))
-#     return results
-#
-#
-# def generate_data_list(results: List[Dict[str, str]]) -> (List[str], List[List[str]]):
-#     datalist, tmplist, header = [], [], []
-#
-#     for row in results:
-#         for key in row:
-#             if results.index(row) == 0:
-#                 header.append(key)
-#             tmplist.append(row[key])
-#         datalist.append(tmplist)
-#         tmplist = []
-#
-#     return header, datalist
+        self.assertListEqual(expect_header, result_header)
+        self.assertListEqual(expect_datalist, result_datalist)
 
 
 if __name__ == '__main__':
