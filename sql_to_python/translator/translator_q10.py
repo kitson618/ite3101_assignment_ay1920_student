@@ -18,13 +18,8 @@ from sql_to_python.translator.translator import read_source_excel
 # INSERT INTO Publisher VALUES ('NE', 'New 2000 Publishing', 'Hong Kong');
 # INSERT INTO Publisher VALUES ('SA', 'South Asia Limited', 'Singapore');
 # INSERT INTO Publisher VALUES ('OR', 'Oriental Publishing', 'Taiwan');
-def create_table(file_path_name: Path):
+def create_table(file_path_name: Path) -> List[Dict[str,str]]:
 
-    results = [
-                {"publisherID":"NE","publisherName":"New 2000 Publishing","address":"Hong Kong"},
-                {"publisherID":"SA","publisherName":"South Asia Limited","address":"Singapore"},
-                {"publisherID":"OR","publisherName":"Oriental Publishing","address":"Taiwan"},
-              ]
+    pass
 
     # export to output excel
-    return results

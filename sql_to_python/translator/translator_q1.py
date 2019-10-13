@@ -8,7 +8,7 @@ from sql_to_python.translator.translator import read_source_excel
 
 # Question 1
 # SQL: SELECT * FROM Emp;
-def query_all(file_path_name: Path, sheet_name: str):
+def query_all(file_path_name: Path, sheet_name: str) -> List[Dict[str,str]]:
 
     # get source data set
     results = read_source_excel(file_path_name, sheet_name)

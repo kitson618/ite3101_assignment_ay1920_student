@@ -12,30 +12,10 @@ from sql_to_python.translator.translator import read_source_excel
 # 	WHERE job = 'CLERK'
 # 	GROUP BY deptNo;
 def query_with_groupby(file_path_name: Path, sheet_name: str, groupby_f: str, \
-                       count_f: str, filter_f: str, filter_v: str):
+                       count_f: str, filter_f: str, filter_v: str) -> List[Dict[str,str]]:
 
     # get source data set
-    results = read_source_excel(file_path_name, sheet_name)
-    results_tmp = []
-    dict_tmp = {}
-    count = 0
 
-    gropby_list = get_distinct_list(results, groupby_f)
-
-    #read loop
-    for group in gropby_list:
-        for row in results:
-            for key in row:
-                if row[key] == group and row[filter_f] == filter_v:
-                    count += 1
-        if count != 0:
-            dict_tmp.update({groupby_f: group})
-            dict_tmp.update({"COUNT(" + count_f + ")": str(count)})
-            results_tmp.append(dict_tmp)
-            dict_tmp = {}
-            count = 0
-
-    results = results_tmp
+    pass
 
     # export to output excel
-    return results

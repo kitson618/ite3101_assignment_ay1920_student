@@ -25,15 +25,11 @@ from xlsxwriter import Workbook
 
 
 def create_spreadsheet(sheet_name: str,workbook: Workbook):
-    worksheet = workbook.get_worksheet_by_name(sheet_name)
-    if worksheet is None:
-        worksheet = workbook.add_worksheet(sheet_name)
-    return worksheet
+    pass
 
 
 def generate_excel(import_path_name: Path, export_path_name: Path):
     workbook = xlsxwriter.Workbook(str(export_path_name.absolute()))
-
 
     # Q1
     result = query_all(import_path_name, "Emp")
@@ -72,25 +68,15 @@ def generate_excel(import_path_name: Path, export_path_name: Path):
 def write_excel(results: List[Dict[str,str]], sheet_name: str, workbook: Workbook):
 
     #get current sheet and update
-    currentWorksheet = create_spreadsheet(sheet_name, workbook)
-    header, data_list = generate_data_list(results)
-
-    currentWorksheet.write_row('A1',header)
-
-    for row, row_data in enumerate(data_list, start=1):
-         for col, col_data in enumerate(row_data):
-             currentWorksheet.write_string(row, col, col_data)
+    pass
 
 
 def get_excel_sheetnames(file_path_name: Path) -> (List[str]):
-    xl = pd.ExcelFile(file_path_name)
-    return xl.sheet_names
+    pass
 
 
 def read_excel_dataframes(file_path_name: Path,sheet_name: str):
-    xl = pd.ExcelFile(file_path_name)
-    df = pd.read_excel(file_path_name, sheet_name=sheet_name)
-    return df
+    pass
 
 
 

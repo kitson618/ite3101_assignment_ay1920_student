@@ -6,7 +6,4 @@ from sql_to_python.filter.logic import get_sorted_list, get_distinct_list
 
 
 def read_source_excel(file_path_name: Path, sheet_name: str) -> (List[Dict[str, str]]):
-    xl = pd.ExcelFile(file_path_name)
-    df = pd.read_excel(file_path_name, sheet_name=sheet_name, dtype=str)
-    df = df.replace('nan', '')
-    return df.to_dict(orient='records')
+    pass
