@@ -6,20 +6,29 @@ from typing import List
 
 
 def unzip_to_folder(source_zip: Path, target_dir: Path):
-    pass
+    zip_file = zipfile.ZipFile(str(source_zip.absolute()))
+    zip_file.extractall(str(target_dir.absolute()))
+    zip_file.close()
 
 
 def delete_folder(target_dir: Path):
-    pass
+    shutil.rmtree(str(target_dir))
 
 
 def read_file(file_path_name: Path) -> str:
-    pass
+    with open(str(file_path_name), 'r') as file:
+        return file.read()
 
 
 def list_all_files(path: Path) -> List[Path]:
-    pass
+    file_name_list = []
+    for root, d_names, f_names in os.walk(str(path)):
+        for f in f_names:
+            file_name_list.append(Path(root, f))
+    file_name_list.sort()
+    return file_name_list
 
 
 def save_to_file(file_path_name: Path, content: str):
-    pass
+    with open(str(file_path_name), "w") as text_file:
+        print(content, file=text_file)

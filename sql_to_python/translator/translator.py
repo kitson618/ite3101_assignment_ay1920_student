@@ -233,8 +233,6 @@ def query_multiple_tables_B(file_path_name: Path, sheet_name: str, filter_f_1: s
 
     results = get_sorted_list(results_tmp,"P1"+select_f_1,"P2"+select_f_2)
 
-    print(results)
-
     # export to output excel
     write_excel(results, 'Q9')
 
@@ -252,7 +250,7 @@ def query_multiple_tables_B(file_path_name: Path, sheet_name: str, filter_f_1: s
 # INSERT INTO Publisher VALUES ('SA', 'South Asia Limited', 'Singapore');
 # INSERT INTO Publisher VALUES ('OR', 'Oriental Publishing', 'Taiwan');
 def create_table(file_path_name: Path, sheet_name: str):
-    # get source data set
+
     results = [
                 {"publisherID":"NE","publisherName":"New 2000 Publishing","address":"Hong Kong"},
                 {"publisherID":"SA","publisherName":"South Asia Limited","address":"Singapore"},
@@ -277,9 +275,3 @@ query_multiple_tables_A(file,"Emp","empNo","mgr","empNo","eName")
 query_multiple_tables_B(file,"Emp","salary","empNo","empNo","eName","salary")
 create_table(file,"Publisher")
 
-
-
-# wb = load_workbook(filename=file)
-# sheet_ranges = wb['Emp']
-# df = pd.DataFrame(sheet_ranges.values)
-# print(df)
