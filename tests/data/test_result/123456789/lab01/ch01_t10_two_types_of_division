@@ -1,0 +1,47 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.1, pytest-3.7.3, py-1.5.4, pluggy-0.7.1
+rootdir: /tmp/ite3101_introduction_to_programming/tests/lab01, inifile:
+collected 1 item
+
+../../tmp/ite3101_introduction_to_programming/tests/lab01/test_ch01_t10_two_types_of_division.py F [100%]
+
+=================================== FAILURES ===================================
+_______________________________ TestOutput.test ________________________________
+
+self = <tests.lab01.test_ch01_t10_two_types_of_division.TestOutput testMethod=test>
+
+    def test(self):
+>       temp_globals, temp_locals, content, output = execfile("lab01/ch01_t10_two_types_of_division.py")
+
+/tmp/ite3101_introduction_to_programming/tests/lab01/test_ch01_t10_two_types_of_division.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+file_relative_path = 'lab01/ch01_t10_two_types_of_division.py'
+temp_globals = {'__file__': '/tmp/ite3101_introduction_to_programming/tests/../lab/lab01/ch01_t10_two_types_of_division.py', '__name__': '__main__'}
+temp_locals = {}
+
+    def execfile(file_relative_path: str, temp_globals: dict = None, temp_locals: dict = None) -> \
+            Tuple[Union[Dict[str, str], dict], Union[dict, dict], str, str]:
+        test_file_path_name = get_path_name(file_relative_path)
+        if temp_globals is None:
+            temp_globals = {}
+        temp_globals.update({
+            "__file__": test_file_path_name,
+            "__name__": "__main__",
+        })
+    
+        if temp_locals is None:
+            temp_locals = {}
+        content = ""
+        with stdout_io() as s:
+            try:
+                with open(test_file_path_name, 'rb') as file:
+                    content = file.read()
+>                   exec(compile(content, test_file_path_name, 'exec'), temp_globals, temp_locals)
+E                     File "/tmp/ite3101_introduction_to_programming/tests/../lab/lab01/ch01_t10_two_types_of_division.py", line 1
+E                       cucumbers=100
+E                       ^
+E                   IndentationError: unexpected indent
+
+/tmp/ite3101_introduction_to_programming/tests/console_test_helper.py:74: IndentationError
+=========================== 1 failed in 0.15 seconds ===========================

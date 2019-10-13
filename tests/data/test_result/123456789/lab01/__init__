@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.1, pytest-3.7.3, py-1.5.4, pluggy-0.7.1
+rootdir: /var/task, inifile:
+
+=============================== warnings summary ===============================
+<undetermined location>
+  could not create cache path /var/task/.pytest_cache/v/cache/nodeids
+
+-- Docs: http://doc.pytest.org/en/latest/warnings.html
+========================== 1 warnings in 0.00 seconds ==========================

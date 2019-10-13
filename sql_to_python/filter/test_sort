@@ -1,0 +1,65 @@
+# Python code demonstrate the working of
+# sorted() with lambda
+
+# Initializing list of dictionaries
+# lis = [{"name": "Nandini", "age": 20},
+#        {"name": "Manjeet", "age": 20},
+#        {"name": "Nikhil", "age": 19}]
+
+lis = [{'empNo': '7566', 'mgr': '7839'}, {'empNo': '7499', 'mgr': '7698'}, {'empNo': '7521', 'mgr': '7698'}, {'empNo': '7654', 'mgr': '7698'}, {'empNo': '7698', 'mgr': '7839'}, {'empNo': '7782', 'mgr': '7839'}, {'empNo': '7369', 'mgr': '7902'}, {'empNo': '7839', 'mgr': 'nan'}, {'empNo': '7844', 'mgr': '7698'}, {'empNo': '7876', 'mgr': '7788'}, {'empNo': '7900', 'mgr': '7698'}, {'empNo': '7902', 'mgr': '7566'}, {'empNo': '7934', 'mgr': '7782'}, {'empNo': '7788', 'mgr': '7566'}]
+
+
+
+# using sorted and lambda to print list sorted
+# by age
+print("The list printed sorting by age: ")
+print(sorted(lis, key=lambda i: i['empNo']))
+
+print("\r")
+
+# using sorted and lambda to print list sorted
+# by both age and name. Notice that "Manjeet"
+# now comes before "Nandini"
+print("The list printed sorting by age and name: ")
+print(sorted(lis, key=lambda i: (i['empNo'], i['mgr'])))
+print("\r")
+
+# using sorted and lambda to print list sorted
+# by age in descending order
+print("The list printed sorting by age in descending order: ")
+print(sorted(lis, key=lambda i: i['empNo'], reverse=True))
+
+results = [{'empNo': '7566', 'eName': 'JONES', 'job': 'MANAGER', 'mgr': '7839', 'hireDate': '1981-04-02 00:00:00', 'salary': '2975', 'comm': 'nan', 'deptNo': '20'}, {'empNo': '7499', 'eName': 'ALLEN', 'job': 'SALESMAN', 'mgr': '7698', 'hireDate': '1981-02-20 00:00:00', 'salary': '1600', 'comm': '300', 'deptNo': '30'}, {'empNo': '7521', 'eName': 'WARD', 'job': 'SALESMAN', 'mgr': '7698', 'hireDate': '1981-02-22 00:00:00', 'salary': '1250', 'comm': '500', 'deptNo': '30'}, {'empNo': '7654', 'eName': 'MARTIN', 'job': 'SALESMAN', 'mgr': '7698', 'hireDate': '1981-09-28 00:00:00', 'salary': '1250', 'comm': '1400', 'deptNo': '30'}, {'empNo': '7698', 'eName': 'BLAKE', 'job': 'MANAGER', 'mgr': '7839', 'hireDate': '1981-05-01 00:00:00', 'salary': '2850', 'comm': 'nan', 'deptNo': '30'}, {'empNo': '7782', 'eName': 'CLARK', 'job': 'MANAGER', 'mgr': '7839', 'hireDate': '1981-06-09 00:00:00', 'salary': '2450', 'comm': 'nan', 'deptNo': '10'}, {'empNo': '7369', 'eName': 'SMITH', 'job': 'CLERK', 'mgr': '7902', 'hireDate': '1980-12-17 00:00:00', 'salary': '800', 'comm': 'nan', 'deptNo': '20'}, {'empNo': '7839', 'eName': 'KING', 'job': 'PRESIDENT', 'mgr': 'nan', 'hireDate': '1981-11-17 00:00:00', 'salary': '5000', 'comm': 'nan', 'deptNo': '10'}, {'empNo': '7844', 'eName': 'TURNER', 'job': 'SALESMAN', 'mgr': '7698', 'hireDate': '1981-09-08 00:00:00', 'salary': '1500', 'comm': '0', 'deptNo': '30'}, {'empNo': '7876', 'eName': 'ADAMS', 'job': 'CLERK', 'mgr': '7788', 'hireDate': '1987-05-23 00:00:00', 'salary': '1100', 'comm': 'nan', 'deptNo': '20'}, {'empNo': '7900', 'eName': 'JAMES', 'job': 'CLERK', 'mgr': '7698', 'hireDate': '1981-12-03 00:00:00', 'salary': '950', 'comm': 'nan', 'deptNo': '30'}, {'empNo': '7902', 'eName': 'FORD', 'job': 'ANALYST', 'mgr': '7566', 'hireDate': '1981-12-03 00:00:00', 'salary': '3000', 'comm': 'nan', 'deptNo': '20'}, {'empNo': '7934', 'eName': 'MILLER', 'job': 'CLERK', 'mgr': '7782', 'hireDate': '1982-01-23 00:00:00', 'salary': '1300', 'comm': 'nan', 'deptNo': '10'}, {'empNo': '7788', 'eName': 'SCOTT', 'job': 'ANALYST', 'mgr': '7566', 'hireDate': '1987-04-19 00:00:00', 'salary': '3000', 'comm': 'nan', 'deptNo': '20'}]
+join_list = ['7369', '7499', '7521', '7566', '7654', '7698', '7782', '7788', '7839', '7844', '7876', '7900', '7902', '7934']
+
+
+v = [d['eName'] for d in results if d['empNo'] == '7369'].pop()
+print({"Supervisor":v})
+
+
+def add(datatype, *args):
+    # if datatype is int
+    # initialize answer as 0
+    if datatype == 'int':
+        answer = 0
+
+    # if datatype is str
+    # initialize answer as ''
+    if datatype == 'str':
+        answer = ''
+
+        # Traverse through the arguments
+    for x in args:
+        # This will do addition if the
+        # arguments are int. Or concatenation
+        # if the arguments are str
+        answer = answer + x
+
+    print(answer)
+
+
+# Integer
+add('int', 5, 6)
+
+# String
+add('str', 'Hi ', 'Geeks')
